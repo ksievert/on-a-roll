@@ -14,8 +14,8 @@ export class HomePage {
 
   roll(int): void{
     var result = Math.floor(Math.random() * int) + 1;
-    this.rolls.push[result];
-    alert(result);
+    this.rolls.unshift(result);
+    alert(this.rolls);
   }
 
   display(): void{
