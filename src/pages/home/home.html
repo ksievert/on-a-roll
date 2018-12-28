@@ -1,14 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      On A Roll
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-buttons>
+  <button ion-button large (click) = "roll(20)">d20</button>
+  </ion-buttons>
+  <div id = "20rolls">
+    
+  </div>
 </ion-content>
