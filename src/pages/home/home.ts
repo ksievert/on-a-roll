@@ -15,6 +15,9 @@ export class HomePage {
   roll(int): void{
     var result = Math.floor(Math.random() * int) + 1;
     this.rolls.unshift(result);
+    if(this.rolls.length > 5) {
+      this.rolls.pop();
+    }
     alert(this.rolls);
   }
 
