@@ -13,12 +13,14 @@ export class HomePage {
   }
 
   roll(int): void{
+    document.getElementById("20rolls").innerHTML = "";
     var result = Math.floor(Math.random() * int) + 1;
     this.rolls.unshift(result);
     if(this.rolls.length > 5) {
       this.rolls.pop();
     }
-    alert(this.rolls);
+    //alert(this.rolls);
+    document.getElementById("20rolls").innerHTML += this.rolls;
   }
 
   display(): void{
