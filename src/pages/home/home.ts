@@ -63,4 +63,27 @@ export class HomePage {
     this.rolls[this.getIndex(int)] = [];
   }
 
+  clearAll(): void {
+    document.getElementById("20first").innerHTML = "";
+    document.getElementById("20rolls").innerHTML = "";
+
+    document.getElementById("12first").innerHTML = "";
+    document.getElementById("12rolls").innerHTML = "";
+
+    document.getElementById("10first").innerHTML = "";
+    document.getElementById("10rolls").innerHTML = "";
+
+    document.getElementById("8first").innerHTML = "";
+    document.getElementById("8rolls").innerHTML = "";
+
+    document.getElementById("6first").innerHTML = "";
+    document.getElementById("6rolls").innerHTML = "";
+
+    document.getElementById("4first").innerHTML = "";
+    document.getElementById("4rolls").innerHTML = "";
+    for(var i = 0; i < this.rolls.length; i++) {
+      this.rolls[i] = [];
+    }
+  }
+
 }
