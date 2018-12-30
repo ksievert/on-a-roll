@@ -9,16 +9,151 @@
 <ion-content padding>
   <ion-item>
     <h2>
-      <button id = "20" ion-button large (click) = "roll(20)">d20</button>
-      <b>
-        <span id = "20first">
-        </span>
-      </b>
-      <span id = "20rolls">
-      </span>
-        <button id = "20clear" icon-end icon-only small color = "light" ion-button (click) = "clear()">
-            <ion-icon name = "close-circle"></ion-icon>
-        </button>
-  </h2>
+      <table>
+        <tr>
+          <td id = "first">
+            <button id = "20" item start ion-button large (click) = "roll(20)">d20</button>
+          </td>
+          <td id = "second">
+            <b>
+              <span id = "20first">
+              </span>
+            </b>
+            <span id = "20rolls">
+            </span>
+          </td>
+          <td id = "third">
+            <button id = "20clear" item-end icon-only small color = "light" ion-button (click) = "clear(20)">
+              <ion-icon name = "close-circle"></ion-icon>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </h2>
+  </ion-item>
+
+  <ion-item>
+    <h2>
+      <table>
+        <tr>
+          <td id = "first">
+            <button id = "12" item start ion-button large (click) = "roll(12)">d12</button>
+          </td>
+          <td id = "second">
+            <b>
+              <span id = "12first">
+              </span>
+            </b>
+            <span id = "12rolls">
+            </span>
+          </td>
+          <td id = "third">
+            <button id = "12clear" item-end icon-only small color = "light" ion-button (click) = "clear(12)">
+              <ion-icon name = "close-circle"></ion-icon>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </h2>
+  </ion-item>
+
+  <ion-item>
+    <h2>
+      <table>
+        <tr>
+          <td id = "first">
+            <button id = "10" item start ion-button large (click) = "roll(10)">d10</button>
+          </td>
+          <td id = "second">
+            <b>
+              <span id = "10first">
+              </span>
+            </b>
+            <span id = "10rolls">
+            </span>
+          </td>
+          <td id = "third">
+            <button id = "10clear" item-end icon-only small color = "light" ion-button (click) = "clear(10)">
+              <ion-icon name = "close-circle"></ion-icon>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </h2>
+  </ion-item>
+
+  <ion-item>
+    <h2>
+      <table>
+        <tr>
+          <td id = "first">
+            <button id = "8" item start ion-button large (click) = "roll(8)">d8</button>
+          </td>
+          <td id = "second">
+            <b>
+              <span id = "8first">
+              </span>
+            </b>
+            <span id = "8rolls">
+            </span>
+          </td>
+          <td id = "third">
+            <button id = "8clear" item-end icon-only small color = "light" ion-button (click) = "clear(8)">
+              <ion-icon name = "close-circle"></ion-icon>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </h2>
+  </ion-item>
+
+  <ion-item>
+    <h2>
+      <table>
+        <tr>
+          <td id = "first">
+            <button id = "6" item start ion-button large (click) = "roll(6)">d6</button>
+          </td>
+          <td id = "second">
+            <b>
+              <span id = "6first">
+              </span>
+            </b>
+            <span id = "6rolls">
+            </span>
+          </td>
+          <td id = "third">
+            <button id = "6clear" item-end icon-only small color = "light" ion-button (click) = "clear(6)">
+              <ion-icon name = "close-circle"></ion-icon>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </h2>
+  </ion-item>
+
+  <ion-item>
+    <h2>
+      <table>
+        <tr>
+          <td id = "first">
+            <button id = "4" item start ion-button large (click) = "roll(4)">d4</button>
+          </td>
+          <td id = "second">
+            <b>
+              <span id = "4first">
+              </span>
+            </b>
+            <span id = "4rolls">
+            </span>
+          </td>
+          <td id = "third">
+            <button id = "4clear" item-end icon-only small color = "light" ion-button (click) = "clear(4)">
+              <ion-icon name = "close-circle"></ion-icon>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </h2>
   </ion-item>
 </ion-content>

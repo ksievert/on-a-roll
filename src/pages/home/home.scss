@@ -1,10 +1,14 @@
 page-home {
   #20 {
     display: inline-block;
+    float: left;
+    text-align: left;
   }
 
   #20first {
     margin-right: 0;
+    margin-left: auto;
+    padding-left: 10px;
     float: right;
     text-align: right;
     display:inline-block;
@@ -12,14 +16,32 @@ page-home {
 
   #20rolls {
     margin-left: 0;
+    margin-right: 0%;
     float: right;
     text-align: right;
     display: inline-block;
   }
 
-  // #20clear {
-  //   display: inline-block;
-  // }
+  #20clear {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    float: right;
+  }
+
+  #first {
+    width: 25em;
+  }
+
+  #second {
+    width: 65em;
+  }
+
+  #third {
+    width: 10em;
+  }
 
   h2 {
 
