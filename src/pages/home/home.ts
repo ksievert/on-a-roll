@@ -27,9 +27,10 @@ export class HomePage {
     }
   }
 
-  display(): void{
-    this.temp = this.rolls;
-
+  clear(): void {
+    document.getElementById("20first").innerHTML = "";
+    document.getElementById("20rolls").innerHTML = "";
+    this.rolls = [];
   }
 
 }

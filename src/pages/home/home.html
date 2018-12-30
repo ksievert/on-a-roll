@@ -8,10 +8,17 @@
 
 <ion-content padding>
   <ion-item>
-    <button id = "20" ion-button large (click) = "roll(20)">d20</button>
-    <b><div id = "20first">
-    </div></b>
-    <div id = "20rolls">
-    </div>
+    <h2>
+      <button id = "20" ion-button large (click) = "roll(20)">d20</button>
+      <b>
+        <span id = "20first">
+        </span>
+      </b>
+      <span id = "20rolls">
+      </span>
+        <button id = "20clear" icon-end icon-only small color = "light" ion-button (click) = "clear()">
+            <ion-icon name = "close-circle"></ion-icon>
+        </button>
+  </h2>
   </ion-item>
 </ion-content>
