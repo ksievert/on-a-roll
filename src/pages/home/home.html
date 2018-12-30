@@ -7,10 +7,11 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-buttons>
-  <button ion-button large (click) = "roll(20)">d20</button>
-  </ion-buttons>
-  <div id = "20rolls">
-    
-  </div>
+  <ion-item>
+    <button id = "20" ion-button large (click) = "roll(20)">d20</button>
+    <b><div id = "20first">
+    </div></b>
+    <div id = "20rolls">
+    </div>
+  </ion-item>
 </ion-content>
